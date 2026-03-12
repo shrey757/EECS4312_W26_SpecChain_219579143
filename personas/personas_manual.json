@@ -1,0 +1,22 @@
+{  "personas": [
+    {
+      "id": "P1",
+      "name": "Frequent Activity Tracker",
+      "description": "A user who relies on the app to log workouts frequently and expects stable performance.",
+      "derived_from_group": "G1",
+      "goals": [
+        "Track workouts consistently",
+        "Log activity quickly"      ],
+      "pain_points": [
+        "App crashes during logging",
+        "Workout data sometimes disappears"      ],
+      "context": [
+        "Logging activities immediately after workouts",
+        "Using the app during outdoor exercise"      ],
+      "constraints": [
+        "Logging must be reliable",
+        "Data should not be lost"       ],
+      "evidence_reviews": [
+        "rev_12",
+        "rev_45"      ]
+    }  ] }

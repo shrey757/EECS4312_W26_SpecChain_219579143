@@ -1,0 +1,12 @@
+{
+  "groups": [
+    {
+      "group_id": "G1",
+      "theme": "App crashes during activity logging, THIS IS A AN EXAMPLE, PLEASE REMOVE ",
+      "review_ids": ["rev_12", "rev_33", "rev_45", "rev_89"],
+      "example_reviews": [
+        "The app crashes every time I log my run.",
+        "Logging workouts causes the app to freeze."
+      ]
+    }
+  ]}
