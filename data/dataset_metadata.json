@@ -1,0 +1,29 @@
+{
+  "app_name": "Wysa",
+  "app_id": "bot.touchkin",
+  "store": "Google Play",
+  "collection_method": "Collected using google-play-scraper in src/01_collect_or_import.py",
+  "raw_dataset_file": "data/reviews_raw.jsonl",
+  "clean_dataset_file": "data/reviews_clean.jsonl",
+  "raw_dataset_size": 2000,
+  "clean_dataset_size": 1650,
+  "cleaning_decisions": [
+    "Removed duplicate reviews based on reviewId.",
+    "Removed duplicate reviews based on normalized text content.",
+    "Removed empty reviews.",
+    "Removed very short reviews with fewer than 3 words after preprocessing.",
+    "Converted text to lowercase.",
+    "Removed URLs.",
+    "Removed punctuation and special characters.",
+    "Removed emojis.",
+    "Converted numbers to words.",
+    "Removed stop words.",
+    "Applied lemmatization."
+  ],
+  "cleaning_summary": {
+    "duplicates_by_reviewId_removed": 0,
+    "duplicates_by_text_removed": 114,
+    "empty_removed": 10,
+    "short_removed": 226
+  }
+}
