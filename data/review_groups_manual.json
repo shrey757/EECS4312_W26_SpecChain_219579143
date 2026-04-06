@@ -8,6 +8,15 @@
       ],
       "example_reviews": []
     }
+    {
+      "group_id": "G2",
+      "theme": "Sleep and relaxation support",
+      "review_ids": [
+        "r150","r177","r409","r445","r524","r730","r832","r1075","r1157","r1170","r1419","r1522","r1677"
+      ],
+      "example_reviews": []
+    }
+    
     
   ]
 }
