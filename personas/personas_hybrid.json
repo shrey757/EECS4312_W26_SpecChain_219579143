@@ -2,30 +2,163 @@
   "personas": [
     {
       "id": "P_hybrid_1",
-      "name": "Frequent Fitness Logger",
-      "description": "A user who depends on the app for regular workout tracking and expects logging to work reliably during or immediately after exercise.",
+      "name": "Anxious Student Seeking Immediate Emotional Support",
+      "description": "A university student experiencing anxiety, stress, or emotional overload who uses Wysa for immediate coping support in a private and judgment-free setting. This user values fast access to calming tools and emotionally appropriate responses during difficult moments.",
       "derived_from_group": "H1",
       "goals": [
-        "Log workouts quickly",
-        "Track activities without interruption"
+        "Receive immediate emotional support",
+        "Reduce anxiety during stressful moments",
+        "Access coping strategies quickly"
       ],
       "pain_points": [
-        "The app crashes while saving workouts",
-        "Previously entered activity data may disappear"
+        "Feeling overwhelmed and needing support urgently",
+        "Responses may feel repetitive or too generic",
+        "Difficulty navigating when already distressed"
       ],
       "context": [
-        "Using the app during exercise sessions",
-        "Using the app outdoors or while moving"
+        "Using the app during panic, stress, or emotional overload",
+        "Opening the app between classes or late at night"
       ],
       "constraints": [
-        "Workout logging must complete without crashing",
-        "Saved workout data must persist"
+        "Support must be quickly accessible",
+        "The interaction must feel private and emotionally safe"
       ],
       "evidence_reviews": [
-        "rev_12",
-        "rev_41"
+        "r13",
+        "r23",
+        "r31",
+        "r62",
+        "r89"
       ],
-      "notes": "Refined the persona description and removed an unsupported assumption about synchronization."
+      "notes": "Refined from the automated persona by making the user context more concrete and focusing on urgency of support."
+    },
+    {
+      "id": "P_hybrid_2",
+      "name": "Sleep-Deprived User Looking for Low-Effort Relaxation",
+      "description": "A user who struggles to relax or fall asleep and turns to Wysa at bedtime for calming exercises, guided support, and low-effort sleep content. This user wants soothing features that are easy to access with minimal interaction.",
+      "derived_from_group": "H2",
+      "goals": [
+        "Fall asleep faster",
+        "Relax before bedtime",
+        "Access calming content with minimal effort"
+      ],
+      "pain_points": [
+        "Overthinking at night",
+        "Difficulty finding the right sleep feature quickly",
+        "Some useful sleep content may be limited or locked"
+      ],
+      "context": [
+        "Using the app in bed before sleeping",
+        "Seeking help during nighttime stress or restlessness"
+      ],
+      "constraints": [
+        "Sleep features must be easy to reach",
+        "Interaction should be minimal and calming"
+      ],
+      "evidence_reviews": [
+        "r150",
+        "r177",
+        "r409",
+        "r445",
+        "r524"
+      ],
+      "notes": "Refined from the automated persona by emphasizing bedtime context and minimal-interaction expectations."
+    },
+    {
+      "id": "P_hybrid_3",
+      "name": "Reflective User Practicing Journaling and CBT",
+      "description": "A user who uses Wysa regularly for journaling, guided self-reflection, and CBT-based exercises. They are motivated by self-improvement and want structured tools that help them better understand and reframe their thoughts.",
+      "derived_from_group": "H3",
+      "goals": [
+        "Reflect on thoughts and emotions",
+        "Use structured CBT techniques",
+        "Track personal growth over time"
+      ],
+      "pain_points": [
+        "Exercises may feel repetitive",
+        "Need for more structured prompts",
+        "Difficulty translating feelings into clear written reflections"
+      ],
+      "context": [
+        "Using the app during quiet personal time",
+        "Returning to journaling or CBT activities regularly"
+      ],
+      "constraints": [
+        "Exercises must feel relevant and structured",
+        "Guidance should support meaningful reflection"
+      ],
+      "evidence_reviews": [
+        "r478",
+        "r624",
+        "r694",
+        "r1403",
+        "r1950"
+      ],
+      "notes": "Refined from the automated persona by clarifying that this user is motivated by recurring self-reflection rather than one-time crisis support."
+    },
+    {
+      "id": "P_hybrid_4",
+      "name": "Cost-Conscious User Evaluating Whether Premium Is Worth It",
+      "description": "A user who sees value in Wysa but is frustrated by subscription restrictions and wants clear information about what is free, what is premium, and whether paying is justified. This user is sensitive to both cost and transparency.",
+      "derived_from_group": "H4",
+      "goals": [
+        "Understand what features are free versus paid",
+        "Access enough value before committing to premium",
+        "Judge whether the subscription is worth the price"
+      ],
+      "pain_points": [
+        "Useful features are hidden behind paywalls",
+        "Subscription value is not always obvious",
+        "Free experience may feel too limited"
+      ],
+      "context": [
+        "Exploring the app before deciding to subscribe",
+        "Using free features while comparing premium value"
+      ],
+      "constraints": [
+        "Budget is limited",
+        "Premium options must be explained clearly"
+      ],
+      "evidence_reviews": [
+        "r68",
+        "r125",
+        "r224",
+        "r285",
+        "r372"
+      ],
+      "notes": "Refined from the automated persona by focusing more explicitly on transparency and purchase decision support."
+    },
+    {
+      "id": "P_hybrid_5",
+      "name": "User Whose Trust Depends on Technical Reliability",
+      "description": "A user who wants to rely on Wysa for mental health support but loses trust when the app crashes, freezes, fails to load, or causes login issues. Because the app is used during important moments, reliability is especially critical for this user.",
+      "derived_from_group": "H5",
+      "goals": [
+        "Use the app reliably without technical interruptions",
+        "Log in successfully and access support quickly",
+        "Trust the app during important moments"
+      ],
+      "pain_points": [
+        "Crashes, freezing, or loading failures",
+        "Login problems block access to support",
+        "Unstable performance reduces confidence in the app"
+      ],
+      "context": [
+        "Using the app when support is urgently needed",
+        "Returning to saved or familiar features across sessions"
+      ],
+      "constraints": [
+        "Core functions must remain stable",
+        "Login and loading must work reliably"
+      ],
+      "evidence_reviews": [
+        "r9",
+        "r36",
+        "r40",
+        "r83",
+        "r132"
+      ],
+      "notes": "Refined from the automated persona by emphasizing trust and the higher stakes of technical failure in a mental health app."
     }
   ]
 }

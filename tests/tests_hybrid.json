@@ -3,14 +3,121 @@
     {
       "test_id": "T_hybrid_1",
       "requirement_id": "FR_hybrid_1",
-      "scenario": "Save a workout entry without crashing",
+      "scenario": "Immediate response to emotional distress",
       "steps": [
-        "Open the workout logging feature",
-        "Enter workout information",
-        "Submit the workout"
+        "Open the app",
+        "Report anxiety, stress, or emotional overload",
+        "Submit the support request"
       ],
-      "expected_result": "The workout is saved successfully and the application does not crash.",
-      "notes": "Revised the expected result to match the updated hybrid requirement."
+      "expected_result": "The application displays a supportive response and at least one relevant coping option in the same interaction.",
+      "notes": "Refined from the automated test by broadening the distress trigger while keeping the expected result specific."
+    },
+    {
+      "test_id": "T_hybrid_2",
+      "requirement_id": "FR_hybrid_2",
+      "scenario": "Emotionally appropriate chatbot tone",
+      "steps": [
+        "Open the app",
+        "Describe emotional distress",
+        "Receive chatbot response"
+      ],
+      "expected_result": "The chatbot response is supportive, non-judgmental, and aligned with the user's emotional context.",
+      "notes": "Refined from the automated test to match the more concise hybrid tone requirement."
+    },
+    {
+      "test_id": "T_hybrid_3",
+      "requirement_id": "FR_hybrid_3",
+      "scenario": "Bedtime access to calming content",
+      "steps": [
+        "Open the app at bedtime",
+        "Navigate to sleep or relaxation support",
+        "Open the selected feature"
+      ],
+      "expected_result": "The application provides calming content such as guided exercises, soothing audio, or relaxation activities.",
+      "notes": "Refined from the automated test by making the bedtime context explicit."
+    },
+    {
+      "test_id": "T_hybrid_4",
+      "requirement_id": "FR_hybrid_4",
+      "scenario": "Three-action access to sleep support",
+      "steps": [
+        "Open the app home screen",
+        "Attempt to reach a sleep-support feature",
+        "Count the number of user actions required"
+      ],
+      "expected_result": "The selected sleep-support feature is reachable in no more than three user actions.",
+      "notes": "Refined from the automated test by making the usability condition measurable."
+    },
+    {
+      "test_id": "T_hybrid_5",
+      "requirement_id": "FR_hybrid_5",
+      "scenario": "Structured journaling support",
+      "steps": [
+        "Open the app",
+        "Select the journaling or reflection feature",
+        "Begin a session"
+      ],
+      "expected_result": "The application presents a structured prompt, guided reflection space, or equivalent journaling support.",
+      "notes": "Refined from the automated test to mirror the hybrid journaling wording more closely."
+    },
+    {
+      "test_id": "T_hybrid_6",
+      "requirement_id": "FR_hybrid_6",
+      "scenario": "Structured CBT guidance",
+      "steps": [
+        "Open the app",
+        "Start a CBT-related activity",
+        "Proceed through the first exercise step"
+      ],
+      "expected_result": "The application guides the user through at least one structured step for identifying, examining, or reframing negative thoughts.",
+      "notes": "Refined from the automated test by aligning it with the clearer hybrid CBT requirement."
+    },
+    {
+      "test_id": "T_hybrid_7",
+      "requirement_id": "FR_hybrid_7",
+      "scenario": "Premium label shown before access",
+      "steps": [
+        "Open the app",
+        "Browse the feature list",
+        "Locate a premium-only feature"
+      ],
+      "expected_result": "The premium-only feature is visibly labeled as premium before the user selects it.",
+      "notes": "Refined from the automated test by emphasizing timing of the premium label."
+    },
+    {
+      "test_id": "T_hybrid_8",
+      "requirement_id": "FR_hybrid_8",
+      "scenario": "Complete pricing information on one screen",
+      "steps": [
+        "Open a premium feature or subscription screen",
+        "Inspect the pricing and subscription information shown"
+      ],
+      "expected_result": "The screen displays the subscription cost, billing model, and premium access details together.",
+      "notes": "Refined from the automated test to match the hybrid requirement’s one-screen information expectation."
+    },
+    {
+      "test_id": "T_hybrid_9",
+      "requirement_id": "FR_hybrid_9",
+      "scenario": "Stable completion of core interaction",
+      "steps": [
+        "Open the app",
+        "Use a core feature",
+        "Complete the interaction"
+      ],
+      "expected_result": "The application remains responsive and does not crash, freeze, or terminate unexpectedly.",
+      "notes": "Refined from the automated test by tying stability directly to completion of the interaction."
+    },
+    {
+      "test_id": "T_hybrid_10",
+      "requirement_id": "FR_hybrid_10",
+      "scenario": "Successful login without interface error",
+      "steps": [
+        "Open the app",
+        "Enter valid login credentials",
+        "Submit the login request"
+      ],
+      "expected_result": "The user is authenticated successfully and the main interface loads without error.",
+      "notes": "Retained the automated test structure because it already matched the refined hybrid requirement."
     }
   ]
 }
