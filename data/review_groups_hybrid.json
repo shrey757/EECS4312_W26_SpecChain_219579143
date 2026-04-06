@@ -1,13 +1,64 @@
-{  "groups": [
+{
+  "groups": [
     {
       "group_id": "H1",
-      "theme": "Workout logging failures during activity tracking",
-      "review_ids": ["rev_12", "rev_33", "rev_41", "rev_92"],
-      "example_reviews": [
-        "The app crashes whenever I try to log a run.",
-        "Logging workouts causes the app to freeze."
+      "theme": "Anxiety and emotional support",
+      "review_ids": [
+        "r13","r23","r31","r62","r89","r178","r208","r227","r289"
       ],
-      "notes": "Removed one unrelated review about login problems from the original automated group."
+      "example_reviews": [
+        "This app really helps when I feel anxious.",
+        "It calms me down during stressful moments."
+      ],
+      "notes": "Refined from manual group by removing less relevant reviews and focusing on direct emotional support cases."
+    },
+    {
+      "group_id": "H2",
+      "theme": "Sleep and relaxation support",
+      "review_ids": [
+        "r150","r177","r409","r445","r524","r730","r832","r1075"
+      ],
+      "example_reviews": [
+        "Helps me fall asleep faster.",
+        "The sleep exercises are really calming."
+      ],
+      "notes": "Focused specifically on sleep-related use cases and removed general wellness reviews."
+    },
+    {
+      "group_id": "H3",
+      "theme": "Journaling and CBT features",
+      "review_ids": [
+        "r478","r624","r694","r1403","r1950","r1649","r569","r993"
+      ],
+      "example_reviews": [
+        "The journaling feature helps me reflect.",
+        "CBT exercises are very useful."
+      ],
+      "notes": "Grouped reviews that clearly mention structured reflection or CBT-based support."
+    },
+    {
+      "group_id": "H4",
+      "theme": "Subscription and premium concerns",
+      "review_ids": [
+        "r372","r474","r565","r706","r1177","r1232","r1326","r1386"
+      ],
+      "example_reviews": [
+        "Too many features are locked behind premium.",
+        "Not sure if the subscription is worth it."
+      ],
+      "notes": "Removed duplicate and unclear pricing complaints and focused on clear subscription concerns."
+    },
+    {
+      "group_id": "H5",
+      "theme": "Technical issues and app reliability",
+      "review_ids": [
+        "r40","r666","r1935","r1102","r668","r83","r9","r36"
+      ],
+      "example_reviews": [
+        "The app crashes randomly.",
+        "It freezes when I try to use features."
+      ],
+      "notes": "Refined to include only reviews mentioning crashes, freezing, or login issues."
     }
   ]
 }
