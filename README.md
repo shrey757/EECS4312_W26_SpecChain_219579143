@@ -1,33 +1,38 @@
 # EECS4312_W26_SpecChain
 
-## instructions:
-Please update to include: 
-- App name
-- Data collection method
-- Original dataset
-- Final cleaned dataset
-- Exact commands to run pipeline
+## Application
+Wysa
 
-# example
-Application: [Calm]
+## Data Collection Method
+The reviews were collected from the Google Play Store for the Wysa app using a Python script (`src/01_collect_or_import.py`) with the `google-play-scraper` library.
 
-Dataset:
-- reviews_raw.jsonl contains the collected reviews.
-- reviews_clean.jsonl contains the cleaned dataset.
-- The cleaned dataset contains 842 reviews.
+## Original Dataset
+- `data/reviews_raw.jsonl` contains the raw collected reviews.
+- The raw dataset contains **2000 reviews**.
 
-Repository Structure:
-- data/ contains datasets and review groups
-- personas/ contains persona files
-- spec/ contains specifications
-- tests/ contains validation tests
-- metrics/ contains all metric files
-- src/ contains executable Python scripts
-- reflection/ contains the final reflection
+## Final Cleaned Dataset
+- `data/reviews_clean.jsonl` contains the cleaned review dataset.
+- The cleaned dataset contains **1650 reviews**.
+- Cleaning included duplicate removal, empty/short review removal, lowercasing, URL removal, punctuation/special character removal, emoji removal, number-to-word conversion, stop-word removal, and lemmatization.
 
-How to Run:
-1. python src/00_validate_repo.py
-2. python src/02_clean.py
-3. python src/run_all.py
-4. Open metrics/metrics_summary.json for comparison results
+## Repository Structure
+- `data/` contains datasets, metadata, and review grouping files
+- `personas/` contains manual, automated, and hybrid persona files
+- `spec/` contains manual, automated, and hybrid requirement specifications
+- `tests/` contains manual, automated, and hybrid test files
+- `metrics/` contains the metric files and summary comparison
+- `prompts/` contains the automated prompt used for generation
+- `src/` contains Python scripts for validation, collection/import, cleaning, and pipeline execution
+- `reflection/` contains the final reflection file
+
+## Exact Commands to Run Pipeline
+1. `python src/00_validate_repo.py`
+2. `python src/01_collect_or_import.py`
+3. `python src/02_clean.py`
+4. `python src/run_all.py`
+
+## Notes
+- This project analyzes user reviews of the Wysa mental health app.
+- The repository includes three pipelines: manual, automated, and hybrid.
+- Comparison results can be found in `metrics/metrics_summary.json`.
 
