@@ -2,11 +2,12 @@
   "groups": [
     {
       "group_id": "G1",
-      "theme": "App crashes during activity logging, THIS IS A AN EXAMPLE, PLEASE REMOVE ",
-      "review_ids": ["rev_12", "rev_33", "rev_45", "rev_89"],
-      "example_reviews": [
-        "The app crashes every time I log my run.",
-        "Logging workouts causes the app to freeze."
-      ]
+      "theme": "Anxiety and emotional support",
+      "review_ids": [
+        "r13","r23","r31","r62","r89","r178","r208","r227","r289","r307","r352","r365","r423"
+      ],
+      "example_reviews": []
     }
-  ]}
+    
+  ]
+}
