@@ -1,22 +1,139 @@
-{  "personas": [
+{
+  "personas": [
     {
       "id": "P1",
-      "name": "Frequent Activity Tracker",
-      "description": "A user who relies on the app to log workouts frequently and expects stable performance.",
+      "name": "Anxious Student Seeking Emotional Support",
+      "description": "A university student who experiences frequent anxiety and stress due to academic pressure and personal challenges. They use Wysa as a private and judgment-free space to manage their emotions and calm themselves during stressful moments.",
       "derived_from_group": "G1",
       "goals": [
-        "Track workouts consistently",
-        "Log activity quickly"      ],
+        "Reduce anxiety and stress",
+        "Feel emotionally supported",
+        "Access quick coping strategies"
+      ],
       "pain_points": [
-        "App crashes during logging",
-        "Workout data sometimes disappears"      ],
+        "Feeling overwhelmed and anxious",
+        "Needing immediate emotional support",
+        "App responses sometimes feel repetitive or unhelpful"
+      ],
       "context": [
-        "Logging activities immediately after workouts",
-        "Using the app during outdoor exercise"      ],
+        "Using the app during moments of stress or panic",
+        "Accessing the app late at night or between classes"
+      ],
       "constraints": [
-        "Logging must be reliable",
-        "Data should not be lost"       ],
+        "Needs quick and effective responses",
+        "Requires a private and safe space for emotional expression"
+      ],
       "evidence_reviews": [
-        "rev_12",
-        "rev_45"      ]
-    }  ] }
+        "r13","r23","r31","r62","r89"
+      ]
+    },
+    {
+      "id": "P2",
+      "name": "Sleep-Deprived User Seeking Relaxation",
+      "description": "A user who struggles with falling asleep and uses Wysa to relax their mind before bedtime. They rely on calming exercises, sleep stories, and guided techniques to improve sleep quality.",
+      "derived_from_group": "G2",
+      "goals": [
+        "Fall asleep faster",
+        "Relax before bedtime",
+        "Improve sleep quality"
+      ],
+      "pain_points": [
+        "Difficulty sleeping or insomnia",
+        "Overthinking at night",
+        "Limited free sleep-related features"
+      ],
+      "context": [
+        "Using the app at night before sleeping",
+        "Listening to calming exercises in bed"
+      ],
+      "constraints": [
+        "Needs soothing and effective content",
+        "Requires minimal interaction before sleep"
+      ],
+      "evidence_reviews": [
+        "r150","r177","r409","r445","r524"
+      ]
+    },
+    {
+      "id": "P3",
+      "name": "Reflective User Practicing Self-Improvement",
+      "description": "A user interested in journaling, CBT exercises, and self-reflection. They use Wysa to better understand their thoughts and emotions and to track personal growth over time.",
+      "derived_from_group": "G3",
+      "goals": [
+        "Reflect on thoughts and emotions",
+        "Practice CBT techniques",
+        "Improve mental well-being over time"
+      ],
+      "pain_points": [
+        "Difficulty expressing thoughts clearly",
+        "Need for structured exercises",
+        "Limited personalization in responses"
+      ],
+      "context": [
+        "Using the app during quiet personal time",
+        "Writing thoughts and reflections regularly"
+      ],
+      "constraints": [
+        "Needs meaningful and structured exercises",
+        "Requires accurate and relevant feedback"
+      ],
+      "evidence_reviews": [
+        "r478","r624","r694","r1403","r1950"
+      ]
+    },
+    {
+      "id": "P4",
+      "name": "Price-Sensitive User Frustrated by Paywalls",
+      "description": "A user who finds value in the app but is frustrated by premium features being locked behind a subscription. They want affordable access to mental health support without excessive restrictions.",
+      "derived_from_group": "G4",
+      "goals": [
+        "Access useful features without paying high costs",
+        "Get value from the free version",
+        "Decide whether the premium version is worth it"
+      ],
+      "pain_points": [
+        "Too many features locked behind paywall",
+        "Subscription cost is too high",
+        "Limited functionality in free version"
+      ],
+      "context": [
+        "Exploring the app before committing to subscription",
+        "Using free features frequently"
+      ],
+      "constraints": [
+        "Budget limitations",
+        "Needs clear value justification for paid features"
+      ],
+      "evidence_reviews": [
+        "r68","r125","r224","r285","r372"
+      ]
+    },
+    {
+      "id": "P5",
+      "name": "Frustrated User Facing Technical Issues",
+      "description": "A user who encounters bugs, crashes, or login issues while using Wysa. These technical problems reduce trust in the app and prevent consistent usage.",
+      "derived_from_group": "G5",
+      "goals": [
+        "Use the app without crashes or errors",
+        "Access features reliably",
+        "Have a smooth and stable experience"
+      ],
+      "pain_points": [
+        "App crashes or freezes",
+        "Login or loading issues",
+        "Features not working properly"
+      ],
+      "context": [
+        "Using the app during important moments",
+        "Trying to access features quickly"
+      ],
+      "constraints": [
+        "Requires stable performance",
+        "Needs fast response times"
+      ],
+      "evidence_reviews": [
+        "r9","r36","r40","r83","r132"
+      ]
+    }
+  ]
+}
