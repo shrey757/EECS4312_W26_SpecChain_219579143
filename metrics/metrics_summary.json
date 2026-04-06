@@ -1,35 +1,35 @@
 {
+  "best_pipeline": "hybrid",
+  "dataset_size": 1650,
   "manual": {
-    "dataset_size": 300,
-    "persona_count": 4,
-    "requirements_count": 8,
+    "persona_count": 5,
+    "requirements_count": 10,
     "tests_count": 10,
-    "traceability_links": 12,
-    "review_coverage": 0.63,
-    "traceability_ratio": 0.87,
-    "testability_rate": 0.75,
-    "ambiguity_ratio": 0.12
+    "traceability_links": 20,
+    "review_coverage": 0.79,
+    "traceability_ratio": 1.0,
+    "testability_rate": 0.95,
+    "ambiguity_ratio": 0.08
   },
   "automated": {
-    "dataset_size": 300,
-    "persona_count": 4,
-    "requirements_count": 8,
+    "persona_count": 5,
+    "requirements_count": 10,
     "tests_count": 10,
-    "traceability_links": 12,
-    "review_coverage": 0.65,
-    "traceability_ratio": 0.88,
-    "testability_rate": 0.80, 
-    "ambiguity_ratio": 0.12
+    "traceability_links": 20,
+    "review_coverage": 0.72,
+    "traceability_ratio": 0.9,
+    "testability_rate": 0.84,
+    "ambiguity_ratio": 0.16
   },
   "hybrid": {
-    "dataset_size": 300,
-    "persona_count": 4,
-    "requirements_count": 8,
-    "tests_count": 9,
-    "traceability_links": 12,
-    "review_coverage": 0.67,
-    "traceability_ratio": 0.88,
-    "testability_rate": 0.87, 
-    "ambiguity_ratio": 0.12
-  }
+    "persona_count": 5,
+    "requirements_count": 10,
+    "tests_count": 10,
+    "traceability_links": 20,
+    "review_coverage": 0.83,
+    "traceability_ratio": 1.0,
+    "testability_rate": 0.96,
+    "ambiguity_ratio": 0.06
+  },
+  "justification": "The hybrid pipeline performed best overall because it preserved the structure and speed of automated generation while improving requirement quality, traceability, and testability through human refinement. The manual pipeline was strong in precision but less efficient, while the automated pipeline was faster but had more confusing results."
 }
