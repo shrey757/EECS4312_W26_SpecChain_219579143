@@ -1,0 +1,139 @@
+{
+  "personas": [
+    {
+      "id": "AP1",
+      "name": "Emotionally Distressed User Seeking Immediate Support",
+      "description": "A user experiencing anxiety, stress, or emotional distress who turns to Wysa for immediate comfort, calming guidance, and supportive interaction. They expect the app to respond quickly with relevant coping strategies and emotionally supportive conversation.",
+      "derived_from_group": "AG1",
+      "goals": [
+        "Receive immediate emotional support",
+        "Reduce anxiety and stress",
+        "Access calming strategies quickly"
+      ],
+      "pain_points": [
+        "Feeling overwhelmed during stressful moments",
+        "Needing support without judgment",
+        "Generic or repetitive chatbot responses"
+      ],
+      "context": [
+        "Using the app during moments of emotional distress",
+        "Accessing support during study, work, or late-night stress"
+      ],
+      "constraints": [
+        "Needs fast access to support tools",
+        "Requires privacy and emotional safety"
+      ],
+      "evidence_reviews": [
+        "r13","r23","r31","r62","r89"
+      ]
+    },
+    {
+      "id": "AP2",
+      "name": "User Seeking Sleep and Relaxation Help",
+      "description": "A user who struggles with sleep, bedtime anxiety, or difficulty relaxing at night. They use Wysa to access calming exercises, bedtime support, and relaxation features that help them sleep better.",
+      "derived_from_group": "AG2",
+      "goals": [
+        "Fall asleep more easily",
+        "Relax before bedtime",
+        "Use calming nighttime support"
+      ],
+      "pain_points": [
+        "Overthinking at night",
+        "Difficulty sleeping",
+        "Limited access to sleep-related features"
+      ],
+      "context": [
+        "Using the app in bed at night",
+        "Seeking minimal-interaction relaxation support"
+      ],
+      "constraints": [
+        "Needs soothing and low-effort interaction",
+        "Requires quick access to sleep features"
+      ],
+      "evidence_reviews": [
+        "r150","r177","r409","r445","r524"
+      ]
+    },
+    {
+      "id": "AP3",
+      "name": "Reflective User Focused on Journaling and CBT",
+      "description": "A user who wants to understand their emotions better through journaling, reflection, and guided CBT-based exercises. They use Wysa as a self-improvement and self-awareness tool rather than only for crisis support.",
+      "derived_from_group": "AG3",
+      "goals": [
+        "Reflect on emotions and patterns",
+        "Use CBT exercises for self-improvement",
+        "Track personal growth over time"
+      ],
+      "pain_points": [
+        "Difficulty organizing thoughts",
+        "Need for structured reflection prompts",
+        "Exercises may feel too generic"
+      ],
+      "context": [
+        "Using the app during quiet personal time",
+        "Writing entries regularly for self-reflection"
+      ],
+      "constraints": [
+        "Needs structured and meaningful exercises",
+        "Requires relevant prompts and guidance"
+      ],
+      "evidence_reviews": [
+        "r478","r624","r694","r1403","r1950"
+      ]
+    },
+    {
+      "id": "AP4",
+      "name": "Cost-Conscious User Evaluating Premium Value",
+      "description": "A user who is interested in Wysa’s benefits but becomes frustrated when useful features are locked behind a subscription. They want transparency about premium value and affordable access to support features.",
+      "derived_from_group": "AG4",
+      "goals": [
+        "Understand what is free versus paid",
+        "Access useful features at reasonable cost",
+        "Decide whether premium is worth purchasing"
+      ],
+      "pain_points": [
+        "Too many paywalled features",
+        "Unclear value of subscription",
+        "Frustration with limited free access"
+      ],
+      "context": [
+        "Exploring the app before upgrading",
+        "Using the free version regularly"
+      ],
+      "constraints": [
+        "Has limited budget",
+        "Needs clear premium feature labeling"
+      ],
+      "evidence_reviews": [
+        "r68","r125","r224","r285","r372"
+      ]
+    },
+    {
+      "id": "AP5",
+      "name": "User Blocked by Technical Reliability Problems",
+      "description": "A user who wants to rely on Wysa for support but is prevented from doing so by crashes, freezing, loading failures, or login issues. They need a stable and dependable experience to trust the app.",
+      "derived_from_group": "AG5",
+      "goals": [
+        "Use the app without crashes or errors",
+        "Access features reliably",
+        "Log in and continue sessions smoothly"
+      ],
+      "pain_points": [
+        "Crashes or freezing during use",
+        "Login failures",
+        "Unstable access to core features"
+      ],
+      "context": [
+        "Trying to use the app during important moments",
+        "Returning to the app for repeated support"
+      ],
+      "constraints": [
+        "Requires stable core functionality",
+        "Needs reliable login and loading performance"
+      ],
+      "evidence_reviews": [
+        "r9","r36","r40","r83","r132"
+      ]
+    }
+  ]
+}

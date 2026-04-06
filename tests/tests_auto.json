@@ -3,13 +3,110 @@
     {
       "test_id": "T_auto_1",
       "requirement_id": "FR_auto_1",
-      "scenario": "Logging a workout without crashing",
+      "scenario": "Immediate anxiety support response",
       "steps": [
-        "Open the workout logging screen",
-        "Enter workout details",
-        "Submit the workout"
+        "Open the app",
+        "Indicate feeling anxious or distressed",
+        "Request support"
       ],
-      "expected_result": "The workout is saved successfully and the application remains stable."
+      "expected_result": "The system provides a supportive response and at least one relevant coping strategy immediately."
+    },
+    {
+      "test_id": "T_auto_2",
+      "requirement_id": "FR_auto_2",
+      "scenario": "Supportive conversational tone",
+      "steps": [
+        "Open the app",
+        "Describe emotional distress",
+        "Receive chatbot response"
+      ],
+      "expected_result": "The response remains supportive, non-judgmental, and appropriate to the emotional context."
+    },
+    {
+      "test_id": "T_auto_3",
+      "requirement_id": "FR_auto_3",
+      "scenario": "Sleep feature access",
+      "steps": [
+        "Open the app",
+        "Navigate to sleep or relaxation support",
+        "Select a sleep-related feature"
+      ],
+      "expected_result": "The application provides sleep or relaxation content such as guided exercises or calming activities."
+    },
+    {
+      "test_id": "T_auto_4",
+      "requirement_id": "FR_auto_4",
+      "scenario": "Minimal navigation to sleep support",
+      "steps": [
+        "Open the app home screen",
+        "Attempt to reach sleep support content"
+      ],
+      "expected_result": "The sleep-support feature is reachable within three user actions."
+    },
+    {
+      "test_id": "T_auto_5",
+      "requirement_id": "FR_auto_5",
+      "scenario": "Guided journaling access",
+      "steps": [
+        "Open the app",
+        "Select journaling or reflection feature",
+        "Start a session"
+      ],
+      "expected_result": "The application provides a structured journaling prompt or reflection aid."
+    },
+    {
+      "test_id": "T_auto_6",
+      "requirement_id": "FR_auto_6",
+      "scenario": "CBT exercise guidance",
+      "steps": [
+        "Open the app",
+        "Select a CBT-related activity",
+        "Begin the exercise"
+      ],
+      "expected_result": "The system guides the user through at least one structured cognitive reflection or reframing step."
+    },
+    {
+      "test_id": "T_auto_7",
+      "requirement_id": "FR_auto_7",
+      "scenario": "Premium feature labeling",
+      "steps": [
+        "Open the app",
+        "Browse feature list",
+        "View a premium-only feature"
+      ],
+      "expected_result": "The premium-only feature is clearly labeled before the user attempts to access it."
+    },
+    {
+      "test_id": "T_auto_8",
+      "requirement_id": "FR_auto_8",
+      "scenario": "Subscription price transparency",
+      "steps": [
+        "Open a premium feature",
+        "View the subscription page"
+      ],
+      "expected_result": "The page clearly displays subscription cost, billing model, and premium access details."
+    },
+    {
+      "test_id": "T_auto_9",
+      "requirement_id": "FR_auto_9",
+      "scenario": "Core feature stability",
+      "steps": [
+        "Open the app",
+        "Use a core feature",
+        "Complete the interaction"
+      ],
+      "expected_result": "The application remains responsive and does not crash, freeze, or terminate unexpectedly."
+    },
+    {
+      "test_id": "T_auto_10",
+      "requirement_id": "FR_auto_10",
+      "scenario": "Reliable login",
+      "steps": [
+        "Open the app",
+        "Enter valid login credentials",
+        "Submit login"
+      ],
+      "expected_result": "The user is authenticated successfully and the main interface loads without error."
     }
   ]
 }
