@@ -7,7 +7,7 @@
         "r13","r23","r31","r62","r89","r178","r208","r227","r289","r307","r352","r365","r423"
       ],
       "example_reviews": []
-    }
+    },
     {
       "group_id": "G2",
       "theme": "Sleep and relaxation support",
@@ -15,7 +15,7 @@
         "r150","r177","r409","r445","r524","r730","r832","r1075","r1157","r1170","r1419","r1522","r1677"
       ],
       "example_reviews": []
-    }
+    },
     {
       "group_id": "G3",
       "theme": "Journaling, CBT, and self-reflection",
@@ -23,8 +23,7 @@
         "r478","r624","r694","r1403","r1950","r1649","r194","r569","r993","r215","r321","r550","r919"
       ],
       "example_reviews": []
-    }
-
+    },
     {
       "group_id": "G4",
       "theme": "Subscription and pricing frustration",
@@ -32,16 +31,14 @@
         "r68","r125","r224","r285","r372","r474","r565","r706","r1177","r1232","r1326","r1386","r1672"
       ],
       "example_reviews": []
-    }
-     {
+    },
+    {
       "group_id": "G5",
       "theme": "Technical issues and reliability problems",
       "review_ids": [
         "r9","r36","r40","r83","r132","r195","r623","r666","r668","r1102","r1935"
       ],
       "example_reviews": []
-     }
-    
-    
+    }
   ]
 }
