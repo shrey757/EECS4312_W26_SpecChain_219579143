@@ -23,7 +23,16 @@
         "r478","r624","r694","r1403","r1950","r1649","r194","r569","r993","r215","r321","r550","r919"
       ],
       "example_reviews": []
-}
+    }
+
+    {
+      "group_id": "G4",
+      "theme": "Subscription and pricing frustration",
+      "review_ids": [
+        "r68","r125","r224","r285","r372","r474","r565","r706","r1177","r1232","r1326","r1386","r1672"
+      ],
+      "example_reviews": []
+    }
     
     
   ]
