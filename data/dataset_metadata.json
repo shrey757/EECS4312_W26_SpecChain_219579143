@@ -22,8 +22,8 @@
   ],
   "cleaning_summary": {
     "duplicates_by_reviewId_removed": 0,
-    "duplicates_by_text_removed": 114,
+    "duplicates_by_text_removed": 117,
     "empty_removed": 10,
-    "short_removed": 226
+    "short_removed": 223
   }
 }
