@@ -16,6 +16,14 @@
       ],
       "example_reviews": []
     }
+    {
+      "group_id": "G3",
+      "theme": "Journaling, CBT, and self-reflection",
+      "review_ids": [
+        "r478","r624","r694","r1403","r1950","r1649","r194","r569","r993","r215","r321","r550","r919"
+      ],
+      "example_reviews": []
+}
     
     
   ]
